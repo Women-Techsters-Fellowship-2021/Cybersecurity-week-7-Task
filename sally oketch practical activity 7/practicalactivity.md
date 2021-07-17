@@ -1,11 +1,11 @@
 
 Part 1
-1.	nmap -sP 10.0.2.15
-2.	nmap -sN 10.0.2.15
-3.	nmap -sT 10.0.2.15
-4.	nmap  -sS  10.0.2.15
-5.	nmap  -sU 10.0.2.15
-6.	nmap  -sF 10.0.2.15
+1.	nmap -sP 10.0.2.15/24
+2.	nmap -sN 10.0.2.15/24
+3.	nmap -sT 10.0.2.15/24
+4.	nmap  -sS  10.0.2.15/24
+5.	nmap  -sU 10.0.2.15/24
+6.	nmap  -sF 10.0.2.15/24
 7.	nmap --script vuln 10.0.2.15/24 -p 1-1000  brings a vulnerability that does not allow trial of another account.
 
 part 2
