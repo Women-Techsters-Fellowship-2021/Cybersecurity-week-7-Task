@@ -69,7 +69,7 @@ If you check the encrypted files contents, it should look like gibberish.
 
 ![part3_3_2](https://github.com/Women-Techsters-Fellowship-2021/Cybersecurity-week-7-Task/blob/main/Kimberly%20Kuya%20Week%207%20PA/week_7_practical_activity/part3_3_2.png)
 
-Fifth, to decrypt encryptedfile.txt, use **openssl rsautl -decrypt -in encryptedfile.txt -out decryptedfile.txt -inkey privatekey.pem** which will give a decrypted file called decryptedfile.txt.
+To decrypt encryptedfile.txt, use **openssl rsautl -decrypt -in encryptedfile.txt -out decryptedfile.txt -inkey privatekey.pem** which will give a decrypted file called decryptedfile.txt.
 
 ![part3_4](https://github.com/Women-Techsters-Fellowship-2021/Cybersecurity-week-7-Task/blob/main/Kimberly%20Kuya%20Week%207%20PA/week_7_practical_activity/part3_4.png)
 
