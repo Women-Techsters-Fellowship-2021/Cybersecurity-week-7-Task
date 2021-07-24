@@ -1,27 +1,27 @@
-1.Perform an Icmp ping  scan on your kali linux                    
-ANSWER 
+1. Perform an Icmp ping  scan on your kali linux                    
+## ANSWER 
 To Ping input the command  "nmap -sP 10.0.2.0/24" this is my Ip Address
 
 
- Perform a tcp Ping on your kali linux
+2. Perform a tcp Ping on your kali linux
 Answer 
-To perform a TCP ping I input Nmap  -sT  and my network address which is 10.0.2.0/24 hence giving the command "nmap -sT  10.0.2.0/24"
+3. To perform a TCP ping I input Nmap  -sT  and my network address which is 10.0.2.0/24 hence giving the command "nmap -sT  10.0.2.0/24"
 
-Perform a TCP connect on your kali linux
+4. Perform a TCP connect on your kali linux
 ANSWER
 I changed to  being the root user so as to perform the tcp connect by writing “ SU” command then I input the command “ Nmap  -sT -P  22, 10.0.2.0/24”  to perform a TCP connect. 
 
 
-Perform a STEALTH SCANNING on your Kali linux
+5. Perform a STEALTH SCANNING on your Kali linux
 ANSWER
 We input the command  “nmap -sS 10.0.2.15” this is my IP address
 
-Perform a UDP SCANNING on your Kali linux
+6. Perform a UDP SCANNING on your Kali linux
 
 To perform an UDP scanning  input the command   "nmap -sU 10.0.2.15" this is my Ip address and run it
 
 
-A hacker leaked the below hash online. Can you crack it to know the password of the CEO? the flag is the password Hash: 06f8aa28b9237866e3e289f18ade19e1736d809d
+# A hacker leaked the below hash online. Can you crack it to know the password of the CEO? the flag is the password Hash: 06f8aa28b9237866e3e289f18ade19e1736d809d
 
 ANSWER 
 I used the SHA-1 DECODER to identify the CEO Password which is : jrahyn+
